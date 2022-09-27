@@ -11,7 +11,6 @@ brew install \
   dsh \
   exa \
   fx \
-# fzf \
   gh \
   htop \
   icdiff \
@@ -21,4 +20,5 @@ brew install \
   wget
 
 # To install useful key bindings and fuzzy completion (fzf):
+# brew install fzf
 # $(brew --prefix)/opt/fzf/install
