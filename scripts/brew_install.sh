@@ -13,6 +13,7 @@ brew install \
   fx \
   gh \
   htop \
+  hyperfine \
   icdiff \
   jq \
   shellcheck \
