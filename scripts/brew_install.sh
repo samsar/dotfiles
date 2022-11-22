@@ -2,6 +2,11 @@
 
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# eksctl
+brew tap weaveworks/tap
+brew install weaveworks/tap/eksctl
+
+# useful packages
 brew install \
   ag \
   bash \
