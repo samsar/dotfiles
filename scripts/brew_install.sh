@@ -12,6 +12,7 @@ brew install \
   bash \
   bat \
   cloc \
+  diff-so-fancy \
   dive \
   dsh \
   exa \
