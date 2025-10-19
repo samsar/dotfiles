@@ -1,0 +1,14 @@
+format = """
+$fill
+$all$character
+"""
+
+right_format = """
+$time
+"""
+
+[time]
+disabled = false
+format = "[$time]($style)"
+time_format = "%Y-%m-%d - %H:%M:%S"
+style = "grey"
