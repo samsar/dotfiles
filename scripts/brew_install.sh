@@ -2,10 +2,6 @@
 
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# eksctl
-brew tap weaveworks/tap
-brew install weaveworks/tap/eksctl
-
 # useful packages
 brew install \
   ag \
@@ -15,9 +11,9 @@ brew install \
   diff-so-fancy \
   dive \
   dsh \
-  exa \
   fx \
   gh \
+  golang \
   htop \
   hyperfine \
   icdiff \
