@@ -3,6 +3,8 @@ $fill
 $all$character
 """
 
+add_newline = false
+
 right_format = """
 $time
 """
