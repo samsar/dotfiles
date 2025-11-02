@@ -25,3 +25,7 @@ brew install \
 # To install useful key bindings and fuzzy completion (fzf):
 # brew install fzf
 # $(brew --prefix)/opt/fzf/install
+
+# configure diff-so-fancy
+git config --global core.pager "diff-so-fancy | less --tabs=4 -RF"
+git config --global interactive.diffFilter "diff-so-fancy --patch"
