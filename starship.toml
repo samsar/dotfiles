@@ -22,3 +22,7 @@ style = "bold purple"
 
 [kubernetes]
 disabled = false
+format = '[$symbol$context( \($namespace\))]($style) '
+
+[package]
+format = '[$symbol$version]($style) '
