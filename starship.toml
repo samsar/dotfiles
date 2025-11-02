@@ -1,16 +1,21 @@
-format = """
-$fill
-$all$character
-"""
-
 add_newline = false
 
-right_format = """
-$time
-"""
+format = """$fill
+$directory$git_branch$git_status$character"""
+
+right_format = """$all $time"""
 
 [time]
 disabled = false
 format = "[$time]($style)"
-time_format = "%Y-%m-%d - %H:%M:%S"
-style = "grey"
+# time_format = "%Y-%m-%d - %H:%M:%S"
+time_format = "@ %H:%M:%S"
+style = "244"
+
+[fill]
+symbol = "-"
+style = "244"
+
+[git_branch]
+format = '\([$branch]($style)\) '
+style = "bold purple"
