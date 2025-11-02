@@ -19,3 +19,6 @@ style = "244"
 [git_branch]
 format = '\([$branch]($style)\) '
 style = "bold purple"
+
+[kubernetes]
+disabled = false
