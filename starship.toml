@@ -3,7 +3,7 @@ add_newline = false
 format = """$fill
 $directory$git_branch$git_status$character"""
 
-right_format = """$all $time"""
+right_format = """$all$time"""
 
 [time]
 disabled = false
