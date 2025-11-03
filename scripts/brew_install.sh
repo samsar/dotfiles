@@ -5,6 +5,7 @@
 # useful packages
 brew install \
   ag \
+  asdf \
   bash \
   bat \
   cloc \
@@ -29,3 +30,11 @@ brew install \
 # configure diff-so-fancy
 git config --global core.pager "diff-so-fancy | less --tabs=4 -RF"
 git config --global interactive.diffFilter "diff-so-fancy --patch"
+
+# configure asdf
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git
+
+# install node, ruby
+asdf install nodejs latest
+asdf install ruby latest
