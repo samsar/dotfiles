@@ -20,6 +20,7 @@ brew install \
   icdiff \
   jq \
   shellcheck \
+  tenv \
   watch \
   wget
 
