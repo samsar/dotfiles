@@ -56,7 +56,8 @@ alias rk9s='k9s --readonly'
 
 export GOPATH="$(go env GOPATH)"
 export PATH="${GOPATH}/bin:$PATH"
-
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 export KUBECONFIG=~/.kube/config
 
 # Starship prompt
@@ -67,6 +68,6 @@ fpath=(/Users/samansartipi/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
 # End of Docker CLI completions
-export PATH="$HOME/.local/bin:$PATH"
+
 bindkey "^[[1;3C" forward-word
 bindkey "^[[1;3D" backward-word

@@ -19,6 +19,7 @@ brew install \
   hyperfine \
   icdiff \
   jq \
+  libyaml \
   shellcheck \
   tenv \
   watch \
@@ -39,3 +40,8 @@ asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git
 # install node, ruby
 asdf install nodejs latest
 asdf install ruby latest
+
+asdf set nodejs latest
+asdf set ruby latest
+
+asdf reshim
