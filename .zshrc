@@ -1,6 +1,3 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 # Path to your oh-my-zsh installation.
 export ZSH="${HOME}/.oh-my-zsh"
 
@@ -21,9 +18,6 @@ plugins=(git docker docker-compose aws kubectl)
 
 source $ZSH/oh-my-zsh.sh
 
-source /Users/samansartipi/.oh-my-zsh/plugins/kube-ps1/kube-ps1.plugin.zsh
-PROMPT=$PROMPT'$(kube_ps1) '
-
 # User configuration
 
 alias dall="echo '\n-- CONTAINERS --' && docker container ps -a && echo '\n-- VOLUMES --' && docker volume ls && echo '\n-- NETWORKS --' && docker network ls && echo '\n-- IMAGES --' && docker image ls"
@@ -37,6 +31,7 @@ function gfpr() {
   git add .
   gcam "$1"
   gpsup
+  gh browse
 }
 
 function gitpush() {
